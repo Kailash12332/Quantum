@@ -1,0 +1,172 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOZnvQW9ckZRTzkNHWrGtTB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kailash12332/Quantum/blob/main/my%20learning%20activities\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pYaoq9mz4UgN",
+        "outputId": "65814ea4-8834-4436-9f3a-242a00553608"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "32\n"
+          ]
+        }
+      ],
+      "source": [
+        "temperature= 32\n",
+        "print (temperature)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "day1=32\n",
+        "day2=56\n",
+        "day3=58\n",
+        "day4=33\n",
+        "\n",
+        "average= (day1+day2+day3+day4)/4\n",
+        "print (average)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s2BmMeED4kD7",
+        "outputId": "5214faf1-7b10-441f-ed89-b30f95575b45"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "44.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperature = 35\n",
+        "\n",
+        "if temperature > 35:\n",
+        "  print(\"hot day\")\n",
+        "else:\n",
+        "  print(\"cold day\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CroqkNsY98wI",
+        "outputId": "4d30fa33-33a6-47c6-d76e-b5bbca308036"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "cold day\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pm2_5 = 45\n",
+        "\n",
+        "if pm2_5 > 35:\n",
+        "  print(\"pollution\")\n",
+        "else:\n",
+        "  print(\"good\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QQvbxszZ_b-t",
+        "outputId": "8499cde8-4d3a-4104-c7bd-2a95a5dcc5ec"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "pollution\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score = 90\n",
+        "if score >= 90:\n",
+        "  print(\"A\")\n",
+        "elif score >= 80:\n",
+        "  print(\"B\")\n",
+        "elif score >= 70:\n",
+        "  print(\"C\")\n",
+        "elif score >= 60:\n",
+        "  print(\"D\")\n",
+        "else:\n",
+        "  print(\"F\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7W1NQy8PAAF8",
+        "outputId": "407bf261-8cda-44cf-c4b3-f79797dcebcb"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
